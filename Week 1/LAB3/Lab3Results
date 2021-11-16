@@ -1,0 +1,8 @@
+1st challenge was the sdc was already in use... so I switch everything to sda and continued.
+
+Got to the point of creating a snapshot and my current subscription doesn't permit me to continue.
+
+(OperationNotAllowed) CopyStart creation is not supported for this subscription.
+Code: OperationNotAllowed
+Message: CopyStart creation is not supported for this subscription.
+
