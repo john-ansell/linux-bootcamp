@@ -1,0 +1,14 @@
+1st step was to allow Az to create a new key pair...didn't realize you had to convert the *.PIM private key file that Azure creates to a ppk file to use with putty!
+After conversion, it worked like a charm!
+
+Used PuttyGen to create a public key by moving the mouse around the screen.  Copy the key and paste into Az Portal at build time of the VM.
+Save private key from PuttyGen to a location on the local HD.  Can pwd protect.
+Close PuttyGen
+Open Putty
+
+Import private key into
+
+After VM is fully created, go to resource and copy the public IP address.
+Type azureuser@publicIPaddress in host field
+
+When attempting to connect you will see a PuTTY security alert related to the host key... if this is super secret please compare the fingerprint on the file.
